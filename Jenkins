@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            sh "aws cloudformation create-stack --stack-name ecinstance10 --template-body file://instance.yaml --tags Key=Name,Value=114poc01 --region 'us-east-1'"
+            sh "aws cloudformation create-stack --profile Devops_admin --stack-name DeadshotEC2 --template-body file://ec2.yaml --parameters file://ec2-parameters.json --tags Key=Name,Value=Deadshot-Jenkins --region 'us-east-1'"
               }
              }
             }
