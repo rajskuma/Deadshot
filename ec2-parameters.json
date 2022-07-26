@@ -1,0 +1,22 @@
+[
+    {
+      "ParameterKey": "VpcId",
+      "ParameterValue": "vpc-0e78bc04c92f835ff"
+    },
+    {
+      "ParameterKey": "SubnetID",
+      "ParameterValue": "subnet-00612d68aa727f9db"
+    },
+    {
+      "ParameterKey": "ImageID",
+      "ParameterValue": "ami-0c2286fc70b4c7941"
+    },
+    {
+      "ParameterKey": "InstanceType",
+      "ParameterValue": "t2.micro"
+    },
+    {
+      "ParameterKey": "KeyName",
+      "ParameterValue": "devops"
+    }
+  ]
